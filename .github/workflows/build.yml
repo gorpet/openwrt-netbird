@@ -57,7 +57,7 @@ jobs:
       matrix:
         target:
           - arch: "aarch64_cortex-a53"
-            sdk: "https://downloads.openwrt.org/releases/25.12.1/targets/mediatek/filogic/openwrt-sdk-25.12.1-mediatek-filogic_gcc-14.3.0_musl.Linux-x86_64.tar.zst"
+            sdk: "https://downloads.openwrt.org/releases/25.12.5/targets/mediatek/filogic/openwrt-sdk-25.12.5-mediatek-filogic_gcc-14.3.0_musl.Linux-x86_64.tar.zst"
     steps:
       - name: Checkout
         uses: actions/checkout@main
