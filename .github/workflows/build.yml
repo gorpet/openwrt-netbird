@@ -93,7 +93,7 @@ jobs:
           ./scripts/feeds update -a
           if [ -d ./feeds/packages/lang/golang ]; then
             rm -rf ./feeds/packages/lang/golang
-            git clone --depth=1 -b 25.x https://github.com/sbwml/packages_lang_golang ./feeds/packages/lang/golang
+            git clone --depth=1 -b 26.x https://github.com/sbwml/packages_lang_golang ./feeds/packages/lang/golang
           fi
           ./scripts/feeds install -a
 
